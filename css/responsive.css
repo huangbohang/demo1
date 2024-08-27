@@ -1,0 +1,314 @@
+
+
+img {
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width:1480px) {
+	html{
+		font-size: 17px;
+	}
+	.header .naver li{
+		margin-right:40px;
+	}
+}
+@media only screen and (max-width:1280px) {
+	html{
+		font-size: 16px;
+	}
+	
+	
+}
+@media only screen and (max-width:1180px) {
+	html{
+		font-size: 14px;
+	}
+	
+}
+@media only screen and (max-width:1040px) {
+	h2{
+		font-size: 20px !important;
+	}
+	h3{
+		font-size: 18px !important;
+	}
+	h4{
+		font-size: 16px !important;
+	}
+	p,
+	h5,
+	h6{
+		font-size: 14px !important;
+	}
+	
+	.wrap {
+		width: auto;
+		padding: 0 15px;
+	}
+	.header .naver .ph{
+		display: none;
+	}
+	.header .rts .shop{
+		margin-right: 50px;
+	}
+	.header{
+		position: fixed;top: 0;left: 0;right: 0;
+	}
+	.gh{
+		display: block;
+		right: 20px;top: 20px;
+	}
+	.header .wrap{
+		height: 60px;
+	}
+	html{
+		font-size: 16px;
+	}
+	.header .naver ul{
+		position: absolute;
+		left: 0;right: 0;
+		top:100%;z-index: 11;
+		height: calc(100vh - 60px);
+		background: #0e0e0e;display: none;
+	}
+	.header .naver .rts{
+		margin-right: 50px;
+	}
+	.header .naver li a{
+		display: block;
+		line-height: 42px;
+	}
+	.header{
+		padding: 0 15px;height: 60px;
+		background:#0e0e0e;
+		box-shadow:0 0 0.4166666666666667rem 0 rgba(80,80,80,0.2);
+	}
+	.header .btn{
+		margin-right: 60px;
+	}
+	.header .naver li{
+		border-bottom: 1px solid #f1f1f1;
+		margin-right: 0;
+	}
+	.header .logo a img{
+		margin-right: 10px;height: 60px;
+	}
+	.banner .prev, .banner .next{
+		background-size: 50% auto !important;
+	}
+	.header .logo a{
+		font-size: 14px;
+	}
+	.layout{
+		padding-top: 60px;
+	}
+	.header .naver ul li a{
+		font-size: 16px;
+		display: block;
+		line-height: 50px;
+	}
+	.header .naver ul li{
+		margin: 0;
+		padding: 0 20px;
+		border-bottom: 1px solid #222;
+	}
+	.layout{
+		overflow: hidden;
+	}
+	.page1{
+		padding: 40px 0;
+	}
+	.tit{
+		font-size: 20px;
+		line-height: 3.4;
+	}
+	.page3 ul{
+		justify-content: space-between;
+		padding-top: 0;
+	}
+	
+	.page3 li{
+		width: 49%;
+		margin: 0 0 10px 0;
+		padding: 15px;
+	}
+	.page2 ul{
+		display: block;
+	}
+	.page2 li{
+		width: auto;
+		margin: 0 0 15px 0;
+		padding: 15px;
+	}
+	.page3 li h3 i,
+	.page2 li h3 i{
+		font-size: 18px;
+	}
+	.page3 li h3 i{
+		margin-bottom: 15px;
+	}
+	.page3{
+		padding: 40px 0;
+	}
+	.page3 li .ico{
+		position: static;
+	}
+	.page3 li{
+		overflow: hidden;
+	}
+	.page3 li .ico img{
+		width: 50px;height: 50px;
+	}
+	.footer .wrap{
+		display: block;
+		padding: 10px;
+	}
+	.footer .wrap .icon{
+		width: 40px;
+		margin: 0 auto 20px;
+	}
+	.footer .wrap a{
+		font-size: 14px;
+		text-align: center;
+	}
+	.chongzhi, .my, .mians{
+		padding: 40px 0;
+	}
+	.mti i{
+		font-size: 22px;
+	}
+	.chongzhi .hd ul{
+		display: block;
+	}
+	.chongzhi .hd ul li{
+		width: auto;
+		margin: 0 0 10px 0;
+	}
+	.chongzhi .list{
+		padding: 30px 0;
+	}
+	.chongzhi .list ul{
+		margin: 20px 0;
+		display: block;
+		width: auto;
+	}
+	.chongzhi .list ul li{
+		margin: 0 0 10px 0;
+		width: auto;
+	}
+	.chongzhi .list ul li a{
+		padding: 20px 25px;
+	}
+	.chongzhi .list .box{
+		padding: 20px ;
+	}
+	.chongzhi .ft h3 i{
+		font-size: 22px;
+	}
+	.chongzhi .list h2{
+		font-size: 16px !important;
+	}
+	.chongzhi .ft{
+		padding-bottom: 50px;
+	}
+	.mians .flax{
+		display: block;
+	}
+	.mians .flax .item{
+		width: auto;margin-bottom: 20px;
+	}
+	.mians .wrap{
+		width: auto;
+	}
+	.mians .flax .box{
+		padding: 15px;
+		min-height: 0;
+	}
+	.mians .flax .box .txt{
+		padding: 15px;
+	}
+	.mians .flax .box .txt2{
+		padding: 5px 10px;
+	}
+	.mians .flax .box .txt h3 i{
+		font-size: 14px;
+	}
+	.my .hd .wrap{
+		margin: 0 15px;
+		padding: 15px;
+		flex-wrap: wrap;
+		position: relative;
+	}
+	.my .hd .name{
+		width: 100%;margin-bottom: 15px;
+	}
+	.my .hd .bt{
+		position: absolute;
+		right: 15px;top: 25px;
+	}
+	.my .hd .name img{
+		width: 50px;height: 50px;
+	}
+	.my .hd .name h4{
+		font-size: 14px !important;
+	}
+	.my .bd{
+		display: block;
+	}
+	.my .bd .lts{
+		width: auto;
+	}
+	.my .bd .item{
+		padding: 0 15px;
+	}
+	.my .bd .item h3 i{
+		font-size: 18px;
+	}
+	.my .bd .item .btn a,
+	.my .bd .item .txt,
+	.my .bd .item .boxscll{
+		font-size: 14px;
+	}
+	.my .bd .item2{
+		padding: 15px;
+	}
+	.gangwei .flax{
+		display: block;
+	}
+	.gangwei .rts,
+	.gangwei .lts{
+		width: auto;
+		border-radius: 10px;
+		padding: 15px;
+	}
+	.gangwei .polist .ls{
+		width: 100%;
+	}
+	.gangwei .lts .ls,
+	.gangwei .lts .ds{
+		margin-bottom: 10px;
+	}
+	.gangwei .lts .ls:last-child{
+		margin-bottom: 0;
+	}
+	.gangwei .rts{
+		margin-top: 20px;
+	}
+	.gangwei .ds dd{
+		width: 100% !important;
+		margin: 0 0 10px 0 !important;
+	}
+	.page3 h4 span{
+		font-size: 20px;
+	}
+	.page3 h4 span i{
+		font-size: 24px;
+	}
+	.chongzhi .list h3{
+		margin: 10px 0;
+	}
+	.chongzhi .list h3 s{
+		font-size: 14px;
+	}
+}
